@@ -41,6 +41,12 @@ cp oblique* /usr/local/Cellar/fortune/**/share/games/fortunes/
 echo 'if command fortune >/dev/null; then fortune oblique; fi' >> ~/.bash_profile
 ```
 
+To create a data file for another system (like Linux), use a command like this:
+
+```
+strfile -c % oblique oblique.dat
+```
+
 ## Thanks
 
 To Brian Eno and Peter Schmidt for the Oblique Strategies.
